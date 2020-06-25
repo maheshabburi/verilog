@@ -1,0 +1,85 @@
+$date
+	Sun Nov 25 21:53:33 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 4 ! y [3:0] $end
+$var wire 1 " k $end
+$var reg 1 # clk $end
+$var reg 1 $ cntrl $end
+$var reg 4 % w [3:0] $end
+$scope module sh $end
+$var wire 1 # clk $end
+$var wire 1 $ cntrl $end
+$var wire 4 & w [3:0] $end
+$var reg 1 " k $end
+$var reg 4 ' y [3:0] $end
+$var integer 32 ( d [31:0] $end
+$var integer 32 ) i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 )
+b1 (
+b111 '
+b1111 &
+b1111 %
+1$
+0#
+1"
+b111 !
+$end
+#5
+b11 !
+b11 '
+b100 )
+b10 (
+1#
+#10
+b1 !
+b1 '
+b100 )
+b11 (
+0#
+#15
+b0 !
+b0 '
+b100 )
+b100 (
+1#
+#20
+0"
+b1111 !
+b1111 '
+b0 (
+0#
+0$
+#25
+1#
+#30
+b111 !
+b111 '
+1"
+b100 )
+b1 (
+0#
+1$
+#35
+b11 !
+b11 '
+b100 )
+b10 (
+1#
+#40
+b1 !
+b1 '
+b100 )
+b11 (
+0#

@@ -1,0 +1,56 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00000000028363d0 .scope module, "andstimulus" "andstimulus" 2 1;
+ .timescale 0 0;
+v00000000028030d0_0 .var "in0", 0 0;
+v0000000002803170_0 .var "in1", 0 0;
+v0000000002803210_0 .net "outand", 0 0, L_0000000002835980;  1 drivers
+S_0000000002802eb0 .scope module, "myand" "and_gate" 2 6, 3 1 0, S_00000000028363d0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a"
+    .port_info 1 /INPUT 1 "b"
+    .port_info 2 /OUTPUT 1 "out"
+L_0000000002835980 .functor AND 1, v00000000028030d0_0, v0000000002803170_0, C4<1>, C4<1>;
+v00000000028367f0_0 .net "a", 0 0, v00000000028030d0_0;  1 drivers
+v00000000028358e0_0 .net "b", 0 0, v0000000002803170_0;  1 drivers
+v0000000002803030_0 .net "out", 0 0, L_0000000002835980;  alias, 1 drivers
+    .scope S_00000000028363d0;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000028030d0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000000002803170_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 11 "$display", "a=%b,b=%b,out=%b", v00000000028030d0_0, v0000000002803170_0, v0000000002803210_0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000028030d0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000000002803170_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 13 "$display", "a=%b,b=%b,out=%b", v00000000028030d0_0, v0000000002803170_0, v0000000002803210_0 {0 0 0};
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000028030d0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000000002803170_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 15 "$display", "a=%b,b=%b,out=%b", v00000000028030d0_0, v0000000002803170_0, v0000000002803210_0 {0 0 0};
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000028030d0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000000002803170_0, 0, 1;
+    %delay 1, 0;
+    %vpi_call 2 17 "$display", "a=%b,b=%b,out=%b", v00000000028030d0_0, v0000000002803170_0, v0000000002803210_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "andtest.v";
+    "and.v";

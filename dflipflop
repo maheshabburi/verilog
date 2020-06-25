@@ -1,0 +1,33 @@
+module dflip_flop(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+
+wire x1,x2,x3;
+
+always(@clk)
+begin
+assign x1=~(d*clk);
+assign x2=~d;
+assign x3=~(x2*clk);
+assign q=~(x1*qbar);
+assign qbar=~(q*x3);
+#5 clk=~clk;
+end
+
+initial
+#20 $finish
+
+endmodule
+
+module test_bench
+reg d,clk;
+wire q,qbar;
+ 
+dflip_flop d(d,clk,q,qbar);
+initial
+begin
+$monitor($time,"d=%b,clk=%b,q=%b,qbar=%b",d,clk,q,qbar);
+#1 d=1;clk=1;
+end
+
+endmodule

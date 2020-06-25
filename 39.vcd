@@ -1,0 +1,51 @@
+$date
+	Sat Nov 10 16:01:25 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testseq $end
+$var wire 1 ! z $end
+$var reg 1 " x1 $end
+$var reg 1 # x2 $end
+$scope module se_q $end
+$var wire 1 " x1 $end
+$var wire 1 # x2 $end
+$var reg 1 $ k $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x$
+x#
+x"
+x!
+$end
+#5
+0!
+0$
+0#
+0"
+#10
+1!
+1#
+#15
+0#
+1"
+#20
+0!
+1$
+1#
+#25
+0"
+#30
+0$
+0#
+#35
+1!
+1"

@@ -1,0 +1,18 @@
+module subtr(a,b,c,s,cot);
+input a,b,c;
+output s,cot;
+
+assign s=a^b^c;
+
+assign cot=~a*b+~a*c+b*c;
+endmodule
+module t;
+wire s,cot;
+reg a,b,c;
+subtr iuygf(a,b,c,s,cot);
+initial 
+begin
+$monitor("a=%b,b=%b,c=%b,d=%b,b=%b",a,b,c,s,cot);
+a=1'b0;b=1'b1;c=1'b1;
+#5 a=1'b1;b=1'b1;c=1'b1;
+end endmodule

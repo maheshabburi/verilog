@@ -1,0 +1,49 @@
+$date
+	Sat Sep 22 23:06:27 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux4to1test $end
+$var wire 1 ! out $end
+$var reg 1 " d0 $end
+$var reg 1 # d1 $end
+$var reg 1 $ d2 $end
+$var reg 1 % d3 $end
+$var reg 1 & s0 $end
+$var reg 1 ' s1 $end
+$scope module mx41 $end
+$var wire 1 " d0 $end
+$var wire 1 # d1 $end
+$var wire 1 $ d2 $end
+$var wire 1 % d3 $end
+$var wire 1 & s0 $end
+$var wire 1 ' s1 $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0&
+1%
+0$
+0#
+1"
+1!
+$end
+#5
+0!
+1'
+#10
+0!
+0'
+1&
+#15
+1!
+1'
+#20

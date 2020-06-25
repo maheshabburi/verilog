@@ -1,0 +1,645 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"draw",
+				"drawBall5"
+			],
+			[
+				"drawBall",
+				"drawBall2"
+			],
+			[
+				"use",
+				"userId"
+			],
+			[
+				"u",
+				"userId"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"per",
+				"percentage"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"atte",
+				"attendance"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"Se",
+				"SELECT"
+			],
+			[
+				"mytodo",
+				"mytodolist"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"user",
+				"usertodo"
+			],
+			[
+				"my",
+				"my_todo"
+			],
+			[
+				"sess",
+				"session"
+			],
+			[
+				"form",
+				"formaction\tAttr"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"clear",
+				"clearInterval"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"p",
+				"PI"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"te",
+				"text-decoration-color"
+			],
+			[
+				"cleat",
+				"clearRect"
+			],
+			[
+				"fi",
+				"fillText"
+			],
+			[
+				"score",
+				"scoregreen"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"clea",
+				"cleartimer"
+			],
+			[
+				"ctx",
+				"ctx2"
+			],
+			[
+				"canv",
+				"canvas3"
+			],
+			[
+				"can",
+				"canvas2"
+			],
+			[
+				"layer",
+				"layer1"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"da",
+				"drawhill"
+			],
+			[
+				"ma",
+				"Math"
+			],
+			[
+				"ro",
+				"rotate"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"velocityy",
+				"velocityy1"
+			],
+			[
+				"velo",
+				"velocityx1"
+			],
+			[
+				"A",
+				"Anglevalue1"
+			],
+			[
+				"An",
+				"Angle1"
+			],
+			[
+				"c",
+				"cleartimer"
+			],
+			[
+				"a",
+				"Anglevalue"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"tr",
+				"translate"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"f",
+				"fillRect"
+			],
+			[
+				"border-r",
+				"border-color"
+			],
+			[
+				"Type",
+				"Typeracer"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"on",
+				"onkeyup"
+			],
+			[
+				"border-right",
+				"border-right-width"
+			],
+			[
+				"backr",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"border",
+				"border-right-style"
+			],
+			[
+				"border-l",
+				"border-left-style"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"cre",
+				"createTextNode"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"H",
+				"H1\tTag"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"onkey",
+				"onkeyup\tAttr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"is",
+				"isEqualNode"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"ch",
+				"charAt"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Changelog"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 220.0,
+		"history":
+		[
+			"node server.js"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/verilog/iverilog/bin/verilog/major.v",
+		"/F/verilog/iverilog/bin/verilog/tff.v",
+		"/F/verilog/iverilog/bin/verilog/dflipflop",
+		"/F/verilog/iverilog/bin/verilog/Fulladder 4bit/fulladders.h",
+		"/F/verilog/iverilog/bin/verilog/decoder.v",
+		"/F/verilog/iverilog/bin/verilog/comb.v",
+		"/F/verilog/iverilog/bin/verilog/Fullsubtractor 4bit/fullsub4bitmain.v",
+		"/F/verilog/iverilog/bin/verilog/Fulladder 4bit/fulladder4bit.v",
+		"/F/verilog/iverilog/bin/verilog/mult4bit.v",
+		"/F/verilog/iverilog/bin/verilog/prencoder.v",
+		"/F/verilog/iverilog/bin/verilog/mux4to1.v",
+		"/F/verilog/iverilog/bin/verilog/4to16.v",
+		"/C/Users/MAHESH/Desktop/fulladder.v",
+		"/F/verilog/iverilog/bin/verilog/Mux 4to1/mux4to1.v",
+		"/F/verilog/iverilog/bin/verilog/Mux 4to1/mux4to1test.v",
+		"/F/subject/Core/Sem 3/CSPC22 Digital Systems Design/[Randy_H._Katz]_Contemporary_Logic_Design(b-ok.org).djvu",
+		"/F/verilog/iverilog/bin/verilog/mult4bittest.v",
+		"/F/verilog/iverilog/bin/verilog/Fulladder 4bit/fulladdertest4bit.v",
+		"/F/verilog/iverilog/bin/verilog/mux4to1test.v",
+		"/F/verilog/iverilog/bin/verilog/Fulladder 4bit/fulladder4bitmain.v",
+		"/F/verilog/iverilog/bin/verilog/fullsub4bittest.v",
+		"/F/verilog/iverilog/bin/verilog/fullsub4bitmain.v",
+		"/F/verilog/iverilog/bin/verilog/fullsub1bit.h",
+		"/F/verilog/iverilog/bin/verilog/fulladders.h",
+		"/F/verilog/iverilog/bin/verilog/fulladdertest4bit.v",
+		"/F/verilog/iverilog/bin/verilog/fulladder4bit.v",
+		"/F/verilog/iverilog/bin/verilog/fulladder/fulladdertest.v",
+		"/F/verilog/iverilog/bin/verilog/fulladder4bitmain.v",
+		"/F/verilog/iverilog/bin/verilog/fulladder/fulladder.v",
+		"/F/verilog/iverilog/bin/verilog/halfadder/halfaddertest.v",
+		"/F/verilog/iverilog/bin/verilog/andgatetest/and.v",
+		"/F/verilog/iverilog/bin/verilog/halfadder/halfadder.v",
+		"/F/verilog/iverilog/samples/hello.vl",
+		"/F/verilog/iverilog/samples/lfsr16.v",
+		"/C/Program Files/Sublime Text 3/fulladder.v",
+		"/C/Program Files/Sublime Text 3/fulladder.hdl",
+		"/C/Users/MAHESH/AppData/Local/Temp/Rar$DIa0.444/example_3_1_tb.v",
+		"/F/verilog/iverilog/bin/verilog/example_3_1.vvp",
+		"/F/verilog/iverilog/bin/verilog/example_3_1.v",
+		"/F/verilog/iverilog/bin/verilog/fulladder.vvp",
+		"/F/verilog/iverilog/bin/verilog/hi",
+		"/C/Users/MAHESH/AppData/Local/Temp/Rar$DIa0.144/example_3_1.v",
+		"/F/verilog/iverilog/bin/verilog/example_3_1_tb.v",
+		"/F/html files/ball game.html",
+		"/C/Users/MAHESH/Desktop/Spider/Spider task 1/Shoot It.html",
+		"/C/Users/MAHESH/Desktop/Spider/onsite1/bubbles.html",
+		"/F/html files/SpiderTask/views/onlylogin.pug",
+		"/F/html files/SpiderTask/views/signagain.pug",
+		"/F/html files/SpiderTask/views/homepage.pug",
+		"/F/html files/SpiderTask/views/signup.pug",
+		"/F/html files/loginroutes.js",
+		"/F/html files/SpiderTask/views/todo2.pug",
+		"/F/html files/SpiderTask/server.js",
+		"/F/html files/SpiderTask/views/note.pug",
+		"/F/html files/SpiderTask/views/note.html",
+		"/C/Users/MAHESH/Desktop/Spider/SpiderTask2/routes/loginroutes1.js",
+		"/F/html files/SpiderTask/routes/loginroutes1.js",
+		"/F/html files/SpiderTask/routes/loginroutes.js",
+		"/F/html files/spider/maheshabburi.github.io/index.html",
+		"/F/html files/spider/maheshabburi.github.io/info.html",
+		"/F/html files/delta.html",
+		"/F/html files/SpiderTask/views/todo.html",
+		"/F/html files/try.html",
+		"/F/html files/Type Racer.html",
+		"/F/html files/Typeracer.html",
+		"/F/html files/SpiderTask/views/mainpage2.pug",
+		"/F/html files/SpiderTask/signup.html",
+		"/F/html files/SpiderTask/signagain.html",
+		"/F/html files/SpiderTask/todos.html",
+		"/F/python files/hw.py",
+		"/F/NodeTaskApp/BunkManager.html",
+		"/C/Program Files/Sublime Text 3/sublime.py",
+		"/F/NodeTaskApp/auth.pug",
+		"/F/SpiderTask/connect.js",
+		"/F/SpiderTask/index.js",
+		"/F/SpiderTask/views/todo3.pug",
+		"/F/SpiderTask/views/todo2.pug",
+		"/F/SpiderTask/views/todos.pug",
+		"/F/SpiderTask/todos.html",
+		"/F/SpiderTask/views/todo.html",
+		"/F/SpiderTask/views/signup.pug",
+		"/F/SpiderTask/views/signagain.pug",
+		"/F/SpiderTask/routes/onlylogin.pug",
+		"/F/SpiderTask/routes/lo.js",
+		"/F/SpiderTask/routes/loginroutes.js",
+		"/F/SpiderTask/server.js",
+		"/F/SpiderTask/views/homepage.pug",
+		"/F/SpiderTask/app.html",
+		"/F/SpiderTask/views/mainpage2.pug",
+		"/F/SpiderTask/homepage.pug",
+		"/F/SpiderTask/routes/onlylogin.html",
+		"/F/SpiderTask/signup.html",
+		"/F/SpiderTask/routes/signagain.html",
+		"/F/SpiderTask/mainpage.html",
+		"/F/NodeTaskApp/mainpage1.pug",
+		"/F/SpiderTask/views/app.pug",
+		"/F/NodeTaskApp/mainpage.pug",
+		"/F/NodeTaskApp/auth.js",
+		"/F/SpiderTask/auth1.js",
+		"/F/NodeTaskApp/mine.c",
+		"/F/SpiderTask/login.js",
+		"/F/SpiderTask/form.pug",
+		"/F/NodeTaskApp/app.js",
+		"/F/SpiderTask/connect1.js",
+		"/F/SpiderTask/indexed.js",
+		"/F/SpiderTask/apped.pug",
+		"/F/html files/app.pug",
+		"/F/html files/app.html",
+		"/F/NodeTaskApp/node_modules/send/index.js",
+		"/F/html files/square game.html",
+		"/F/html files/projectile.html",
+		"/F/html files/mylandscape.html",
+		"/F/html files/landscape.html",
+		"/F/html files/layers.html",
+		"/F/html files/random1.html",
+		"/F/html files/random.html",
+		"/C/Vortex_final/home.css",
+		"/F/html files/pocket's tank.html",
+		"/F/html files/blblb.html",
+		"/F/html files/pocket tank1.html",
+		"/F/html files/Pocket Tanks.html",
+		"/F/html files/pocket tank.html",
+		"/F/html files/arcade shooter.html",
+		"/F/html files/Advancedcalci.css",
+		"/F/html files/file2.css",
+		"/F/html files/delta1.html",
+		"/F/html files/yyy.html",
+		"/F/html files/info.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "andtest.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

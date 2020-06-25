@@ -1,0 +1,94 @@
+$date
+	Tue Sep 18 21:19:41 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fulladdertest4bit $end
+$var wire 4 ! SUM [3:0] $end
+$var wire 1 " C_OUT $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % C_IN $end
+$scope module fa1_4 $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 ( sum [3:0] $end
+$var wire 1 " cout $end
+$var wire 1 ) c3 $end
+$var wire 1 * c2 $end
+$var wire 1 + c1 $end
+$scope module fa1 $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 % cin $end
+$var wire 1 . sum $end
+$var wire 1 + cout $end
+$upscope $end
+$scope module fa2 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 + cin $end
+$var wire 1 1 sum $end
+$var wire 1 * cout $end
+$upscope $end
+$scope module fa3 $end
+$var wire 1 2 a $end
+$var wire 1 3 b $end
+$var wire 1 * cin $end
+$var wire 1 4 sum $end
+$var wire 1 ) cout $end
+$upscope $end
+$scope module fa4 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 ) cin $end
+$var wire 1 7 sum $end
+$var wire 1 " cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+17
+16
+05
+14
+13
+02
+11
+10
+0/
+1.
+0-
+0,
+0+
+0*
+0)
+b1111 (
+b1110 '
+b0 &
+1%
+b1110 $
+b0 #
+0"
+b1111 !
+$end
+#5
+b111 !
+b111 (
+07
+1"
+00
+1/
+15
+b1100 $
+b1100 '
+b1010 #
+b1010 &
+#10

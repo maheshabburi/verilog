@@ -1,0 +1,17 @@
+module b_ex(a,e);
+input [3:0] a;
+output [3:0] e;
+assign e=a+3;
+endmodule
+
+module test;
+reg [3:0] a;
+wire [3:0] e;
+b_ex bextest(a,e);
+initial
+begin
+$monitor(" a=%b,e=%b",a,e);
+a=4'b0000;
+#5 a=4'b0011;
+end
+endmodule

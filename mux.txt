@@ -1,0 +1,17 @@
+module mux(i1,i2,i3,i4,s1,s0,out);
+input i1,i2,i3,i4,s1,s0;
+output out;
+assign out = s0?(s1?i4:i3):(s1?i2:i1);
+endmodule
+
+module muxtest;
+reg i1,i2,i3,i4,s1,s0;
+wire out;
+mux test(i1,i2,i3,i4,s1,s0,out);
+initial
+begin
+$monitor($time," i1=%b,i2=%b,i3=%b,i4=%b,s0=%b,s1=%b,out=%b",i1,i2,i3,i4,s0,s1,out);
+i1=1;i2=1;i3=1;i4=1;
+s0=0;s1=1;
+#5 s0=1;s1=1;
+end endmodule

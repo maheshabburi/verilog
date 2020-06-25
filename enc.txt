@@ -1,0 +1,18 @@
+module en(g3,g2,g1,g0,a1,a0);
+input g3,g2,g1,g0;
+output a1,a0;
+
+assign a1=g3+g2;
+
+assign a0=g3+g1;
+endmodule
+module t;
+wire a1,a0;
+reg g3,g2,g1,g0;
+en b(g3,g2,g1,g0,a1,a0);
+initial 
+begin
+$monitor("g3=%b,g2=%b,g1=%b,g0=%b,a1=%b,a0=%b",g3,g2,g1,g0,a1,a0);
+
+g3=1'b0;g2=1'b1;g1=1'b0;g0=1'b0;
+end endmodule

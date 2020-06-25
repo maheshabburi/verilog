@@ -1,0 +1,95 @@
+$date
+	Sat Nov 10 16:05:16 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_q38 $end
+$var wire 1 ! ps_b $end
+$var wire 1 " ps_a $end
+$var wire 1 # ns_b $end
+$var wire 1 $ ns_a $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$var reg 1 ' x $end
+$scope module t1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ' x $end
+$var reg 1 ( d_a $end
+$var reg 1 ) d_b $end
+$var reg 1 $ ns_a $end
+$var reg 1 # ns_b $end
+$var reg 1 " ps_a $end
+$var reg 1 ! ps_b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x)
+x(
+x'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1%
+#10
+0%
+#15
+1#
+1)
+0(
+1%
+1'
+0&
+#20
+0%
+#25
+1!
+1%
+#30
+0%
+#35
+0#
+1$
+1(
+1%
+#40
+0%
+#45
+0!
+1"
+1%
+#50
+0%
+#55
+0)
+0(
+1%
+#60
+0%
+#65
+1%
+#70
+0%
+#75
+1%
+#80
+0%
+#85
+1%
+#90
+0%
+#95
+1%
+#100
+0%

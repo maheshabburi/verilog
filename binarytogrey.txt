@@ -1,0 +1,18 @@
+module btog(g3,g2,g1,g0,b3,b2,b1,b0);
+input b3,b2,b1,b0;
+output g3,g2,g1,g0;
+assign g3=b3;
+assign g2=b3^b2;
+assign g1=b2^b1;
+assign g0=b1^b0;
+endmodule
+module t;
+reg b3,b2,b1,b0;
+wire g3,g2,g1,g0;
+btog b(g3,g2,g1,g0,b3,b2,b1,b0);
+initial 
+begin
+$monitor("g3=%b,g2=%b,g1=%b,g0=%b,b3=%b,b2=%b,b1=%b,b0=%b",g3,g2,g1,g0,b3,b2,b1,b0);
+
+b3=1'b0;b2=1'b1;b1=1'b0;b0=1'b1;
+end endmodule
